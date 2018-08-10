@@ -15,7 +15,6 @@ RUN cd / && \
   
 USER jenkins
 
-RUN cd ~ && \
-  echo 'export PATH=$PATH:/usr/local/bin/node-v{NODE_VERSION}-linux-x64/bin' >> .profile
+# RUN cd ~ && echo 'export PATH=$PATH:/usr/local/bin/node-v{NODE_VERSION}-linux-x64/bin' >> .profile
 
 #
