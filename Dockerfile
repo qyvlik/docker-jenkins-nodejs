@@ -4,10 +4,6 @@ MAINTAINER "qyvlik@qq.com"
 
 ENV NODE_VERSION 10.8.0
 
-ENV NODE_HOME /usr/local/bin/node-v${NODE_VERSION}-linux-x64
-
-ENV PATH $PATH:${NODE_HOME}/bin
-
 # Switch to root user
 USER root
 
