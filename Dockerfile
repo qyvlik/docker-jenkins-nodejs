@@ -14,9 +14,5 @@ RUN cd / && \
   mv node-v${NODE_VERSION}-linux-x64 /usr/local/bin && \
   echo 'export NODE_HOME=/usr/local/bin/node-v${NODE_VERSION}-linux-x64' >> /etc/profile && \ 
   echo 'export PATH=$PATH:${NODE_HOME}/bin' >> /etc/profile
-  
-CMD ["source", "/etc/profile"]
 
 USER jenkins
-
-CMD ["source", "/etc/profile"]
